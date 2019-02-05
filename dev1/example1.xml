@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="phase3auteur.xsl"?>
+<?xml-stylesheet type="text/xsl" href="renderLivre.xsl"?>
+
+<bibliotheque xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="bib.xsd"
+    >
+    
+    <auteur ident="Auteur_1">
+        <nom>Camus</nom>
+        <prenom>Albert</prenom>
+        <pays>Algérie</pays>
+        <commentaire>Albert Camus, né le 7 novembre 1913 à Mondovi (aujourd’hui Dréan), 
+            près de Bône (aujourd’hui Annaba), en Algérie, et mort accidentellement le 4 
+            janvier 1960 à Villeblevin</commentaire>
+        <photo>http://www.versificados.com.br/wp-content/uploads/2018/02/Camus.png</photo>
+    </auteur>
+    
+    <auteur ident="Auteur_2">
+        <prenom>Yasmina</prenom>
+        <nom>Khadra</nom>
+        <pays>Algerie</pays>
+        <commentaire>" Celui qui passe à côté de la plus belle histoire de sa vie n'aura que l'âge de ses regrets 
+            et tous les soupirs du monde ne sauraient bercer son âme."</commentaire>
+        <photo>https://cdn-s-www.dna.fr/images/448f83a4-8684-490a-aabd-0c5619c6c49e/BES_06/illustration-yasmina-khadra-confessions_1-1521911598.jpg</photo> 
+    </auteur>
+    
+    <auteur ident="Auteur_3">
+        <nom>Dostoevsky</nom>
+        <prenom>Fyodor Mikhailovich</prenom>
+        <pays>Russie</pays>
+        <photo>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Dostoevsky_1872.jpg/800px-Dostoevsky_1872.jpg</photo>
+    </auteur>
+    
+    <auteur ident="Auteur_4">
+        <prenom>Henry-René-Albert-Guy</prenom>
+        <nom>Maupassant</nom>
+        <pays>France</pays>
+        <commentaire>Henry-René-Albert-Guy de Maupassant est un écrivain et journaliste littéraire français né
+            le 5 août 1850 au château de Miromesnil à Tourville-sur-Arques et mort le 6 juillet 1893 à Paris.</commentaire>
+        <photo>https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Guy_de_Maupassant_fotograferad_av_F%C3%A9lix_Nadar_1888.jpg/800px-Guy_de_Maupassant_fotograferad_av_F%C3%A9lix_Nadar_1888.jpg</photo>
+    </auteur>
+    
+    
+    <auteur ident="Auteur_5">
+        <nom>Mahfouz</nom>
+        <prenom>Naguib</prenom>
+        <pays>Egypte</pays>
+        <commentaire>Prix nobel de littérature 1988</commentaire>
+        <photo>https://s-i.huffpost.com/gadgets/slideshows/506332/slide_506332_7078662_free.jpg</photo>
+    </auteur>
+    
+    
+    <livre langue="Francais" auteur="Auteur_2">
+        <titre>L'étranger</titre>
+        <annee>1942</annee>
+        <prix>
+           8.99
+        </prix>
+        <couverture>https://kbimages1-a.akamaihd.net/c5a7589f-7b07-4cea-9604-bb55aa3fc53a/353/569/90/False/l-etranger-11.jpg</couverture>
+        <commentaire>Il a déclaré que je n'avais rien à faire avec une société dont je méconnaissais les
+            règles les plus essentielles et que je ne pouvais pas en appeler à ce coeur humain dont j'ignorais les réactions élémentaires.</commentaire>
+    </livre>
+    
+    <livre langue="francais" auteur="Auteur_1">
+        <titre>Ce que le jour doit à la nuit</titre>
+        <annee>2009</annee>
+        <prix>
+            10.99
+        </prix>
+        <couverture>http://fr.web.img5.acsta.net/medias/nmedia/18/91/71/02/20159308.jpg</couverture>
+        <commentaire>Garde tes peines pour toi, elles sont tout ce qu’il te reste lorsque tu as tout perdu. </commentaire>
+    </livre>
+    
+    <livre langue="Arabe" auteur="Auteur_3">
+        <titre>Les Fils de la Médina </titre>
+        <annee>1956</annee>
+        <prix>
+           11.99
+        </prix>
+        <couverture>http://ecx.images-amazon.com/images/I/51ZVQKPCKWL.jpg</couverture>
+        <commentaire>Excellente traduction</commentaire>
+    </livre>
+    
+    <livre langue="Russe" auteur="Auteur_4 Auteur_5">
+        <titre>La horla </titre>
+        <annee>1886</annee>
+        <prix monnaie="DZD">
+           11.99
+        </prix>
+        <couverture>http://t2.gstatic.com/images?q=tbn:ANd9GcQ4zzfVxo8ISBjkSWRJ3H3Q4o539mdncpaYU9G1WGkh3wfnf-Na</couverture>
+        <commentaire>Dur à lire, mais le comprendre vous donnera envie de le relire maintes fois</commentaire>
+    </livre>
+    
+</bibliotheque>

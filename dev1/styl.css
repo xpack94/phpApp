@@ -1,0 +1,56 @@
+/*boumediene*/
+.enonce{
+	text-decoration:underline;
+	text-shadow:1px 2px 4px #730800;
+	text-align: center;
+
+}
+
+.centrer{
+	text-align: center;
+	border-style:solid;
+	border-radius:15px;
+	text-align: center;
+	background-color: #FDE9E0;
+	}
+
+.para {
+    background-color: lightgrey;
+}
+
+img{
+    width: 600px;
+    height : 450px;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 2px;
+    background-color: #730800;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FDE9E0;
+}
+
+.book_container{
+    margin:12px;
+    padding: 25px;
+    border:2px solid #444;
+    color: #6c757d ;
+}
+
+.auteurs{
+    border:1px solid white;
+    margin: 10px;
+    color:#555;
+    display: flex;
+  
+}
+.auteur_info{
+    padding: 25px;
+}
