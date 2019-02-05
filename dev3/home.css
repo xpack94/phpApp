@@ -1,0 +1,29 @@
+
+body{
+    background-image: url("https://wallpapercave.com/wp/wCNanCt.jpg");
+   
+}
+.bg-dark{
+    background-color: transparent !important;
+}
+.wrapper .jumbotron{
+   background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),#e9ecef !important;
+    margin-top:50px;
+}
+ul li{
+    color: #333;
+}
+li a{
+    margin-right: 7px;
+    color: #003D7F;
+}
+h3,h2{
+    font-family: 'Rubik', sans-serif;
+    color: #333;
+}
+.btn.btn-default{
+    background-color: #a9a9a9;
+}
+.table-bordered , td,th{
+    border:1px solid rgba(0,0,0,0.1) !important;
+}

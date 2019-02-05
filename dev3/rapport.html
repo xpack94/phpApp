@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="container wrapper">
+        <div class="jumbotron container-fluid">
+
+
+
+            <h2>Rapport Tp3:club de sport</h2>
+            <hr/>
+            <h3>Description du schéma de la base de donnée</h3>
+            <p>on a utilisé trois tables sql en tout , une table joueur , une table terrain et une table reservation</p>
+            <p>table joueur:</p>
+            <table class="table table-bordered">
+                <tr>
+                    <th>id</th>
+                    <th>nom</th>
+                    <th>prenom</th>
+                    <th>login</th>
+                    <th>password</th>
+                    <th>gestionnaire</th>
+
+                </tr>
+                <tr>
+                    <td>
+                        clée publique de la table de type int(255) definie comme auto_increment
+                    </td>
+                    <td>nom du joueur de type varchar(255)</td>
+                    <td>prenom du joueur de type varchar(255)</td>
+                    <td>nom d'utiisateur du joueur de type varchar(255) avec propriété unique</td>
+                    <td>mot de passe du joueur de type varchar(255)</td>
+                    <td>une boolean qui prend une valeur de 1 si la personne</td>
+                </tr>
+
+            </table>
+
+            <p>table terrain:</p>
+            <table class="table table-bordered">
+                <tr>
+                    <th>id</th>
+                    <th>nom</th>
+                </tr>
+                <tr>
+                    <td>clée publique de type int definie comme auto_increment</td>
+                    <td>nom du terrain de type varchar(255) </td>
+                </tr>
+            </table>
+
+            <p>tabme reservation:</p>
+            <table class="table table-bordered">
+                <tr>
+                    <th>id</th>
+                    <th>id_joueur</th>
+                    <th>id_terrain</th>
+                    <th>date_reservation</th>
+                </tr>
+                <tr>
+                    <td>clée publique de type int(255) definie comme auto_increment</td>
+                    <td>cléé etrangere de type int(255) qui fait reference au joueur</td>
+                    <td>cléé etrangere de type int(255) qui fait reference au terrain</td>
+                    <td>la date de la reservation de type timestamp</td>
+
+                </tr>
+            </table>
+
+            <h4>ce que nous avons appris:</h4>
+            <p>ce tp nous a appris a bien comprendre la programmation coté serveur avec php et faire la liaison avec mysql tout en apprenant
+                comment cette derniere intéragit avec la logique de programmation coté client 
+            </p>
+            <h3>Liste des comptes créé</h3>
+            <table class="table table-bordered">
+                <tr>
+                    <th>login</th>
+                    <th>mot de passe</th>
+                    <th>gestionnaire</th>
+                </tr>
+                <tr>
+                    <td>nahnahab</td>
+                    <td>azert</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>yacineb</td>
+                    <td>boumedienne</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>davidb</td>
+                    <td>david123</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>charlesdup</td>
+                    <td>charles123</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>dridp</td>
+                    <td>drid123</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>zakn</td>
+                    <td>zak123</td>
+                    <td>0</td>
+                </tr>
+
+            </table>
+            <h3><a href="http://www-ens.iro.umontreal.ca/~nahnahab/tp3/login.php">voir L'application</a></h3>
+            <h3>Liens vers les fichiers:</h3>
+            <div class="row">
+                <div class="col-md-5">
+                
+                    <h3>fichiers php</h3>
+                    <a href="dbInformation.php?source">les informations de la base de donnée</a><br/>
+                    <a href="connectdb.php?source">conexion a la base de donnée</a><br/>
+                    <a href="login.php?source">connexion au site</a><br/>
+                    <a href="signup.php?source">l'inscription au site</a><br/>
+                    <a href="home.php?source">page principale</a><br/>
+                    <a href="disponibilités.php?source">disponibilités des terrains</a><br/>
+                    <a href="reservation.php?source">page pour faire les reservations</a><br/>
+                    <a href="annulation.php?source">page pour les annulations des réservations</a><br/>
+                    <a href="listeDesReservations.php?source">historique des reservations</a><br/>
+                    <a href="listJoueurs.php?source">listes des joueurs</a><br/>
+                    <a href="listeTerrainDispo.php?source">liste des terrains disponible dans un interval de temps</a><br/>
+                    <a href="listTerrainReserve.php?source">liste des terrains réservé dans un interval de temps</a><br>
+                    <a href="signupForm.php?source">Formulaire d'inscription</a><br/>
+                    <a href="signupVerif.php?source">Verification de l'inscription</a><br/>
+                    <a href="logout.php?source">déconnexion</a><br/>
+                    <a href="navbar.php?source">barre de navigation</a><br/>
+                    
+
+                </div>
+                <div class="col-md-4">
+                   <h3>fichiés css</h3>
+                    <a href="home.css">home.css</a><br/>
+                    <a href="login.css">login.css</a><br/>
+                    <a href="signup.css">signup.css</a><br/>
+                </div>
+                <div class="col-md-3">
+                    <h3>fichiés javascript</h3>
+                    <a href="script.js">script.js</a>
+                </div>
+            </div>
+        <h1>Auteurs</h1>
+        <ul>
+            <li>Abdesselam Nahnah</li>
+            <li>Boumedienne Boukharouba</li>
+        </ul>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
